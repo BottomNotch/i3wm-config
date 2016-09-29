@@ -169,3 +169,9 @@ bar {
 bindsym XF86AudioRaiseVolume exec pamixer --allow-boost --increase 2
 bindsym XF86AudioLowerVolume exec pamixer --allow-boost --decrease 2
 bindsym XF86AudioMute exec pamixer --toggle-mute
+bindsym Print exec xfce4-screenshooter
+
+exec wicd-gtk --tray
+exec megasync
+exec telegram -startintray
+exec xfce4-clipman
